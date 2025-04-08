@@ -1,33 +1,17 @@
 @import url("./footer.css");
+@import url("./header.css");
+@import url("./home.css");
+@import url("./global.css");
 
-body {
-    margin: 0px;
-    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-    color: #0b0c12;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.menu {
+.link {
     color: white;
-    background-color: black;
-    padding: 8px;
-    text-align: center;
+    text-decoration: none;
 }
 
 .picture {  
     border-radius: 100px;  
     box-shadow: 2px 3px 0 0 rgb(0, 0, 0);  
 }  
-
-.info {
-    background: white;
-    padding: 32px;
-    text-align: center;
-}
 
 .topics {
     padding-top: 20px;
@@ -42,4 +26,3 @@ main {
     background-color: white;
     padding: 16px;
 }
-
