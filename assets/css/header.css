@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.menu_conteudo {
+    max-width: 1200px;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
