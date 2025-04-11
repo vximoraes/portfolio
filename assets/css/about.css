@@ -20,3 +20,8 @@
     flex-direction: column;
     gap: 10px; 
 }
+
+.picture {  
+    border-radius: 100px;  
+    box-shadow: 2px 3px 0 0 rgb(0, 0, 0);  
+}  
