@@ -2,28 +2,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 42px;
-    background: #000000;
+    padding: 20px 15px;
+    background-color: #000000;
     color: white;
-    width: 100%;
-    box-sizing: border-box;
+    width: 100%; 
+    box-sizing: border-box; 
+    justify-content: flex-end;
 }
 
-header span {
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+header img {
+    width: 50px;
+    margin-right: auto;
 }
 
-header span img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.menu_conteudo {
+header ul {
     max-width: 1200px;
     padding: 5px;
     list-style: none;
@@ -31,23 +23,25 @@ header span img {
     gap: 20px;
 }
 
-.menu_conteudo li {
+header ul li {
+    display: inline-block;
     position: relative;
+    padding: 0px 10px;
 }
 
-.menu_conteudo li a {
+header ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 17px;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-.menu_conteudo li a:hover {
+header ul li a:hover {
     color: #ffffff;
 }
 
-.menu_conteudo li a::after {
+header ul li a::after {
     content: '';
     display: block;
     width: 0;
@@ -59,6 +53,24 @@ header span img {
     left: 0;
 }
 
-.menu_conteudo li a:hover::after {
+header ul li a:hover::after {
     width: 100%;
+}
+
+@media (max-width: 800px) {
+    header {
+        width: 100%; 
+    }
+
+    header ul li a {
+        font-size: 13px;
+    }
+
+    header ul {
+        gap: 5px;
+    }
+
+    header img {
+        width: 40px;
+    }
 }
