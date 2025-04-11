@@ -1,7 +1,8 @@
 .home {
     background: white;
-    padding: 350px 32px;
+    padding: 320px 20px;
     text-align: left;
+    margin-bottom: 35px;
 }
 
 .hello {
@@ -16,4 +17,10 @@
 .desc {
     font-size: 40px;
     color: rgb(85, 85, 85);
+}
+
+@media (max-width: 800px) {
+    .home {
+        padding: 240px 32px;
+    }
 }
