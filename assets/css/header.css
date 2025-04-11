@@ -2,10 +2,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 15px;
-    background-color: black;
+    padding: 20px 42px;
+    background: #000000;
     color: white;
     width: 100%;
+    box-sizing: border-box;
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header span img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .menu_conteudo {
@@ -13,14 +28,37 @@ header {
     padding: 5px;
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 20px;
 }
 
-a {
+.menu_conteudo li {
+    position: relative;
+}
+
+.menu_conteudo li a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
-a:hover {
-    color: gray;
+.menu_conteudo li a:hover {
+    color: #ffffff;
+}
+
+.menu_conteudo li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.menu_conteudo li a:hover::after {
+    width: 100%;
 }
