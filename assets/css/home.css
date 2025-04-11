@@ -1,5 +1,19 @@
 .home {
     background: white;
-    padding: 32px;
+    padding: 350px 32px;
     text-align: left;
+}
+
+.hello {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.desc {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
 }
