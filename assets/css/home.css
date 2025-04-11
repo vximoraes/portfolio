@@ -3,11 +3,10 @@
     padding: 0 20px;
     text-align: left;
     margin: 0; 
-    padding-top: 0; 
-    height: calc(100vh - 80px);
+    height: 100vh; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .hello {
@@ -27,5 +26,6 @@
 @media (max-width: 800px) {
     .home {
         padding: 0 32px;
+        height: 100vh; 
     }
 }
