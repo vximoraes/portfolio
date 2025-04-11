@@ -5,25 +5,3 @@
 @import url("global.css");
 @import url("header.css");
 @import url("home.css");
-
-.link {
-    color: white;
-    text-decoration: none;
-}
-
-.picture {  
-    border-radius: 100px;  
-    box-shadow: 2px 3px 0 0 rgb(0, 0, 0);  
-}  
-
-.topics {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.text {
-    line-height: 25px;
-}
-
-
-
