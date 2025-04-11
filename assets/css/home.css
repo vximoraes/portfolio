@@ -5,15 +5,15 @@
 }
 
 .hello {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 600;
 }
 
 .name {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .desc {
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(85, 85, 85);
 }
