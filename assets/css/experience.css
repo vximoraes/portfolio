@@ -1,0 +1,17 @@
+.experience-box {
+    display: flex;
+    justify-content: center; 
+    padding: 16px;
+}
+
+.experience {
+    max-width: 800px; 
+    width: 100%; 
+    text-align: left;
+}
+
+.experience .topics {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
