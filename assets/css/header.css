@@ -58,6 +58,10 @@ header ul li a:hover::after {
 }
 
 @media (max-width: 800px) {
+    header {
+        width: 100%;
+    }
+
     header ul li a {
         font-size: 13px;
     }
@@ -68,5 +72,23 @@ header ul li a:hover::after {
 
     header img {
         width: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        width: 100%;
+    }
+
+    header ul li a {
+        font-size: 10px;
+    }
+
+    header ul {
+        gap: 3px;
+    }
+
+    header img {
+        width: 30px;
     }
 }
