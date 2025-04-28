@@ -1,17 +1,48 @@
 .experience-box {
+    background: #f9f9f9; 
+    padding: 100px 0;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.experience-box .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
     display: flex;
-    justify-content: center; 
-    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.experience {
-    max-width: 800px; 
-    width: 100%; 
-    text-align: left;
-}
-
-.experience .topics {
-    font-size: 24px;
+.experience h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
     font-weight: bold;
-    margin-bottom: 8px;
+    text-align: center; 
+}
+
+.experience p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .experience-box {
+        padding: 60px 20px;
+    }
+
+    .experience h2 {
+        font-size: 28px;
+    }
+
+    .experience p {
+        font-size: 16px;
+    }
 }
