@@ -9,6 +9,7 @@
     align-items: center; 
     text-align: center; 
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .about img {
@@ -40,10 +41,4 @@
     max-width: 800px; 
     margin: 0 auto; 
     text-align: center; 
-}
-
-@media (max-width: 800px) {
-    .about {
-        margin-top: 100px;
-    }
 }
