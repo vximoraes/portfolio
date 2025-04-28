@@ -41,3 +41,9 @@
     margin: 0 auto; 
     text-align: center; 
 }
+
+@media (max-width: 800px) {
+    .about {
+        margin-top: 60px;
+    }
+}
